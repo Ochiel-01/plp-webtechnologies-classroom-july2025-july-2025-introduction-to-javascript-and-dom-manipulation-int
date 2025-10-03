@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>REMIS JavaScript Fundamentals</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🏠 REMIS JavaScript Fundamentals</h1>
+  
+  <!-- Part 1: Basics -->
+  <section>
+    <h2>🎯 Part 1: Basics (Tenants & Rent)</h2>
+    <p id="basic-output">Result will appear here...</p>
+    <button onclick="checkRentStatus()">Check Rent Status</button>
+  </section>
+
+  <!-- Part 2: Functions -->
+  <section>
+    <h2>❤️ Part 2: Functions (Payments & Messages)</h2>
+    <button onclick="greetTenant('James')">Greet Tenant</button>
+    <button onclick="calculateRent(15000, 500)">Calculate Rent with Service Fee</button>
+    <p id="function-output"></p>
+  </section>
+
+  <!-- Part 3: Loops -->
+  <section>
+    <h2>🔁 Part 3: Loops (Properties & Payments)</h2>
+    <button onclick="listProperties()">List Properties</button>
+    <button onclick="rentReminder()">Send Rent Reminders</button>
+    <ul id="loop-output"></ul>
+  </section>
+
+  <!-- Part 4: DOM -->
+  <section>
+    <h2>🌐 Part 4: DOM Manipulation (Interactive REMIS)</h2>
+    <button id="toggleBtn">Highlight Tenant</button>
+    <p id="dom-text">Tenant: Mary (Rent Due)</p>
+
+    <button id="addTenantBtn">Add Tenant</button>
+    <ul id="tenant-list"></ul>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
